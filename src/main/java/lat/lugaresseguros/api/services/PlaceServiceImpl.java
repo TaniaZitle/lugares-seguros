@@ -9,7 +9,6 @@ import lat.lugaresseguros.api.models.PlaceModel;
 import lat.lugaresseguros.api.repositories.PlaceJpaRepository;
 
 @Service
-
 public class PlaceServiceImpl implements PlaceService {
 	@Autowired
 	PlaceJpaRepository repositorio;
